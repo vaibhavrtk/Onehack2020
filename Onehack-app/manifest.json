@@ -1,0 +1,28 @@
+{
+  //extension_id ldmafmckenjphlcenjpgmffacpdkklcc
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArIAIlGS4fz5gAHjxFPU/J2toXDixFcm7MHmsTrxO4kTzX3qPvco3iQJ5Z9dA4zU72Lc1Ue2XozbPtW2DCAngGVuRgt0QT1fTJrleAp0S8i+MrpQQIOpfw8LQuN5gp6LTrnbf8JJ0pn0b9i5LRgBXfEddYqipV1QWQx83kB1EzEhT7VirmywKAan96JO19jCLsVc+V5SpRxo+LbMpBv88onNChZdHUrquhgZVMJFJjE94zd6n1w1jdmfcKecjrijSXJiillbhWstz7w9ka6zyL2SXEILz5HVPWTKxBRWZErYME43DpkK6iX8Z4S83/IMrqy2Wbb8EGhlm6FJ/oJ290wIDAQAB",
+  "manifest_version": 2,
+  "name": "Onehack Chrome Video Extension",
+  "version": "1",
+  "icons": {
+    "128": "vonage_icon_128.png"
+  },
+  "permissions": [
+  "alwaysOnTopWindows", "webview", "<all_urls>", "videoCapture", "audioCapture"
+],
+  "commands": {
+    "toggle-feature-foo": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+0"
+      },
+      "description": "Toggle feature foo",
+      "global": true
+    }
+  },
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  },
+  "minimum_chrome_version": "28"
+}

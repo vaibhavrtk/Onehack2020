@@ -1,0 +1,36 @@
+body, html {
+    background-color: gray;
+    height: 168px;
+    width: 207px;
+}
+
+#videos {
+    position: absolute;
+    width:  310px;
+    height: 195px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#publisher {
+    position: absolute;
+    left: 260px;
+    top: 150px;
+    width: 50px;
+    height: 40px;
+    z-index: 100;
+}
+
+#subscriber {
+    position: absolute;
+    width: 310px;
+    height: 190px;
+    left: 0px;
+    top: 0px;
+    z-index: 10;
+    border: 3px solid white;
+    border-radius: 3px;
+}

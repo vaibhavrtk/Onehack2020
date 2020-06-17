@@ -1,0 +1,36 @@
+{
+  //"extension id" mhkembdckahajfgejikeebpcofdfkbek
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA39VmO2tk6v3z3IFTd8bRp1jy8iXV1a9JvLjOk3cb70q3n4x/eOYjq0aLCx+g1uATfuAHuf38V8EdHvvIcEr43bPoeq/9k8an3kShGeNK7FVQH/7OHGMYM+w98PCyR9nHfTiPdix0l7XTKed+ABgeMdgubYU+mnFX94m0YnSDfKcspxkaTh4coAStfP+7Bf6PYmGHzVM/czTQ3HXlDHeUHl/QW5j3qLyGIe0nffpn8k+FiflIRNOy/a87QNgiw8PC5lvd6lx5nhoHk8KUJPAfEHpzcCv8vxMauE2bTQKvWcY0VjfCkXOwxojkHQTor1h5b3PlfMVituWASGvASktQdQIDAQAB",
+  "name": "Vonage Video Plugin",
+  "version": "1.0",
+  "description": "Enables video on any site!",
+  "background": {
+    "persistent": false,
+    "scripts": ["background.js"]
+  },
+  "commands": {
+    "_execute_browser_action": {
+      "suggested_key": {
+        "mac": "Alt+P"
+      }
+    }
+  },
+  "permissions": ["<all_urls>","storage", "alwaysOnTopWindows", "webview"],
+    "browser_action": {
+      "default_title": "Vaibhav's Vonge video plugin",
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "images/get_started16.png",
+        "32": "images/get_started32.png",
+        "48": "images/get_started48.png",
+        "128": "images/get_started128.png"
+      }
+    },
+    "icons": {
+      "16": "images/get_started16.png",
+      "32": "images/get_started32.png",
+      "48": "images/get_started48.png",
+      "128": "images/get_started128.png"
+    },
+  "manifest_version": 2
+}
